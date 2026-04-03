@@ -14,6 +14,6 @@ export default function () {
 
   export function handleSummary(data) {
   return {
-    'C:/k6/summary.json': JSON.stringify(data), // Save the summary data as a JSON file
+    'C:/k6/summary.json': JSON.stringify(data), 
   };
 }
